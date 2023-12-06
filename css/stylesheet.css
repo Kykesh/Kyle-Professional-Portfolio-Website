@@ -100,22 +100,28 @@ section {
 }
 
 #work {
-    background-size: cover;
+    display: flex; 
+    align-items: center; 
+    padding: 40px;
+    margin-bottom: 0%;
     color: #003366;
-    display: flex;
 }
 
-#work h1 {
+.work-header {
+    flex: 0; 
+    padding-right: 30px; 
+}
+
+.work-header h1 {
     color: #003366;
     padding-right: 20px;
     padding-left: 20px;
     border-right: 20px;
-    flex: 0; /* Gives the contact header a flex value to allow it to grow */
+    flex: 0; 
     border-right: 3px solid #003366; /* Adds the separating line */
-    padding-right: 20px; /* Adds some space between the text and the line */
+    padding-right: 10px; 
     text-align: right;
 }
-
 
 #work .work-gallery {
     display: flex;
@@ -125,7 +131,7 @@ section {
 
 .work-item {
     margin: 10px;
-    text-align: center;
+    text-align: right;
 }
 
 .work-item img {
@@ -135,6 +141,8 @@ section {
     border-radius: 4px;
     padding: 5px;
 }
+
+
 
 #contact-section {
     display: flex; 
