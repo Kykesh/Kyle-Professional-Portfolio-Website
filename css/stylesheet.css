@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links a:hover, .nav-links a:focus {
-    color: #93060b;
+    color: #f4c3bf;
     text-decoration: underline;
 
 }
@@ -58,14 +58,14 @@ body {
 
 .header-content h1 {
     display: flex;
-    font-size: 60px; /* Adjust as needed */
+    font-size: 60px; 
     color: black;
     margin-bottom: 10px;
 }
 
 .subtitle {
     font-size: 36px;
-    color: #f4c3bf; /* Lighter color for the subtitle */
+    color: #f4c3bf; 
 }
 
 
@@ -85,9 +85,9 @@ section {
     padding-right: 20px;
     padding-left: 20px;
     border-right: 20px;
-    flex: 0; /* Gives the contact header a flex value to allow it to grow */
-    border-right: 3px solid #003366; /* Adds the separating line */
-    padding-right: 20px; /* Adds some space between the text and the line */
+    flex: 0; 
+    border-right: 3px solid #003366; 
+    padding-right: 20px; 
     text-align: right;
 }
 
@@ -95,8 +95,8 @@ section {
     color: #003366;
     padding-left: 50px;
     text-indent: 20px;
-    margin-top: 10px;    /* Space above the paragraph */
-    margin-bottom: 10px;  /* Space below the paragraph */
+    margin-top: 10px;    
+    margin-bottom: 10px; 
 }
 
 #work {
@@ -118,8 +118,8 @@ section {
     padding-left: 20px;
     border-right: 20px;
     flex: 0; 
-    border-right: 3px solid #003366; /* Adds the separating line */
-    padding-right: 10px; 
+    border-right: 3px solid #003366;
+    padding-right: 20px; 
     text-align: right;
 }
 
@@ -131,15 +131,33 @@ section {
 
 .work-item {
     margin: 10px;
-    text-align: right;
+    padding: 10px;
+    background: url('NinjaH2.jpeg') no-repeat center center;
+    background-size: cover;
+    width: 750px;
+    height: 750px;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 0;
+    border-color: #003366;
 }
 
-.work-item img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+.work-items {
+    background: url('WIP.jpeg') no-repeat center center;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    min-height: 150px; 
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 0;
+    border-color: #003366;
+}
+
+.work-items h3, p {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -159,14 +177,14 @@ section {
 
 .contact-header h1 {
     color: #003366; 
-    text-align: right; /* Aligns the heading to the left */
+    text-align: right; 
 }
 
 .contact-info {
     list-style: none;
     display: flex;
     flex: wrap; 
-    padding-left: 50px; /* Adds some space between the line and the contact info */
+    padding-left: 50px;
     
 }
 
@@ -181,10 +199,10 @@ section {
 .contact-phone,
 .contact-email,
 .social-links a {
-    margin: 0 20px; /* Spacing between social links */
-    padding-bottom: 2px; /* Space for the underline */
-    border-bottom: 2px solid #003366; /* Creates the underline effect */
-    display: inline-block; /* Allows the border-bottom to take effect correctly */
+    margin: 0 20px; 
+    padding-bottom: 2px; 
+    border-bottom: 2px solid #003366; 
+    display: inline-block;
 }
 
 .social-links a:hover,
