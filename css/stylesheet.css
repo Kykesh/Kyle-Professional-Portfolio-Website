@@ -4,13 +4,17 @@
     padding: 0;
 }
 
-/* General styles for the navbar */
+body {
+    background-color: #e6f6ff
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
-    background-color: #005f73; /* You'll need to use a color picker on the original image to get this value */
+    background-color: #003366; 
     color: white;
     font-family: 'Arial', sans-serif;
 }
@@ -79,19 +83,39 @@ section {
 #about h1 {
     color: #003366;
     padding-right: 20px;
+    padding-left: 20px;
     border-right: 20px;
+    flex: 0; /* Gives the contact header a flex value to allow it to grow */
+    border-right: 3px solid #003366; /* Adds the separating line */
+    padding-right: 20px; /* Adds some space between the text and the line */
+    text-align: right;
 }
 
 .about-kyle p  {
     color: #003366;
+    padding-left: 50px;
     text-indent: 20px;
     margin-top: 10px;    /* Space above the paragraph */
     margin-bottom: 10px;  /* Space below the paragraph */
 }
 
 #work {
+    background-size: cover;
     color: #003366;
+    display: flex;
 }
+
+#work h1 {
+    color: #003366;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 20px;
+    flex: 0; /* Gives the contact header a flex value to allow it to grow */
+    border-right: 3px solid #003366; /* Adds the separating line */
+    padding-right: 20px; /* Adds some space between the text and the line */
+    text-align: right;
+}
+
 
 #work .work-gallery {
     display: flex;
@@ -113,38 +137,41 @@ section {
 }
 
 .contact-section {
-    display: flex; /* Use flexbox to lay out the two child divs side by side */
-    align-items: center; /* Aligns items vertically in the center */
-    background-color: #e6f6ff; /* Light blue background, adjust the color as needed */
+    display: flex; 
+    align-items: center; 
     padding: 40px;
+    margin-bottom: 0%;
 }
 
 .contact-header {
-    flex: 0; /* Gives the contact header a flex value to allow it to grow */
-    border-right: 3px solid #003366; /* Adds the separating line */
-    padding-right: 10px; /* Adds some space between the text and the line */
+    flex: 0; 
+    border-right: 3px solid #003366; 
+    padding-right: 10px; 
 }
 
-.contact-header h2 {
-    color: #003366; /* Dark blue color, adjust as needed */
+.contact-header h1 {
+    color: #003366; 
     text-align: right; /* Aligns the heading to the left */
 }
 
 .contact-info {
     list-style: none;
     display: flex;
-    flex: wrap; /* Gives the contact info a flex value to allow it to grow */
-    padding-left: 100px; /* Adds some space between the line and the contact info */
+    flex: wrap; 
+    padding-left: 50px; /* Adds some space between the line and the contact info */
+    
 }
 
 .contact-phone,
 .contact-email,
 .social-links a {
-    color: #003366; /* Dark blue color, adjust as needed */
-    text-decoration: none; /* Removes underline from links */
-    margin-bottom: 10px; /* Spacing between contact info lines */
+    color: #003366; 
+    text-decoration: none;
+    margin-bottom: 10px; 
 }
 
+.contact-phone,
+.contact-email,
 .social-links a {
     margin: 0 20px; /* Spacing between social links */
     padding-bottom: 2px; /* Space for the underline */
@@ -154,16 +181,17 @@ section {
 
 .social-links a:hover,
 .social-links a:focus {
-    color: #005f73; /* Slightly darker color for hover state, adjust as needed */
-    border-bottom: 2px solid #005f73; /* Underline color changes on hover/focus */
+    color: #005f73; 
+    border-bottom: 2px solid #005f73; 
 }
 
 footer {
-    background-color: #005f73;
+    background-color: #003366;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     position: absolute;
     bottom: 100;
     width: 100%;
+    margin: 0px;
 }
