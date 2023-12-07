@@ -36,7 +36,7 @@ To ensure the portfolio website meets the needs of hiring managers, the followin
 ![Screenshot](/Module-2-Challenge/images/SS1.png)
 ![Screenshot](/Module-2-Challenge/images/SS2.png)
 
-- Deploy application:
+- Deploy application: https://kykesh.github.io/Kyle-Professional-Portfolio-Website/
 
 
 
